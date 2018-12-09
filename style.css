@@ -1,12 +1,20 @@
 body {
     text-align: center;
     margin: 20px;
-    background-color: #b7a481;
     font-family: 'Roboto Condensed', sans-serif;
+    background-color: #b7a481;
 }
 
 .information .logo-container img {
     border-radius: 50%;
+}
+
+.img-thumbnail {
+    width: 140px;
+}
+
+.education {
+    min-height: 250px;
 }
 
 
@@ -34,7 +42,6 @@ body {
     margin: 20px;
 }
 
-
 .project-list div {
     margin: 20px;
     border: 1px solid black;
@@ -43,6 +50,7 @@ body {
 
 .projects .title {
     background-color: rgb(218, 76, 20);
+    height: 400px;
     box-shadow: 1px 0 4px 1px #000;
 }
 
@@ -59,6 +67,12 @@ footer{
 footer ul {
     list-style: none;
     margin-left: 37%;
+}
+
+@media only screen and (max-width:700px){
+    footer ul {
+        margin-left: 0;
+    }
 }
 
 footer ul li {
